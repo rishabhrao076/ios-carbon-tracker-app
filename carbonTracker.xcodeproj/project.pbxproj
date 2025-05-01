@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		51BEB6882DC3A522003CB28A /* CropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 51BEB6872DC3A522003CB28A /* CropViewController */; };
+		51BEB68A2DC3A522003CB28A /* TOCropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 51BEB6892DC3A522003CB28A /* TOCropViewController */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		519336092DBB11DA00888686 /* carbonTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carbonTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51BEB68A2DC3A522003CB28A /* TOCropViewController in Frameworks */,
+				51BEB6882DC3A522003CB28A /* CropViewController in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +85,8 @@
 			);
 			name = carbonTracker;
 			packageProductDependencies = (
+				51BEB6872DC3A522003CB28A /* CropViewController */,
+				51BEB6892DC3A522003CB28A /* TOCropViewController */,
 			);
 			productName = carbonTracker;
 			productReference = 519336092DBB11DA00888686 /* carbonTracker.app */;
@@ -107,6 +116,9 @@
 			);
 			mainGroup = 519336002DBB11DA00888686;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				51BEB6862DC3A522003CB28A /* XCRemoteSwiftPackageReference "TOCropViewController" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5193360A2DBB11DA00888686 /* Products */;
 			projectDirPath = "";
@@ -335,6 +347,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		51BEB6862DC3A522003CB28A /* XCRemoteSwiftPackageReference "TOCropViewController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TimOliver/TOCropViewController";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		51BEB6872DC3A522003CB28A /* CropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51BEB6862DC3A522003CB28A /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = CropViewController;
+		};
+		51BEB6892DC3A522003CB28A /* TOCropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51BEB6862DC3A522003CB28A /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = TOCropViewController;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 519336012DBB11DA00888686 /* Project object */;
 }

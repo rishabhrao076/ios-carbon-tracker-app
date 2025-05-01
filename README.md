@@ -33,9 +33,9 @@ Original App Design Project - README
 ### 1. User Stories
 
 **Required (Must‑have)**  
-- [ ] User can open the camera and take a photo of a receipt  
-- [ ] User can crop the photo to the receipt region  
-- [ ] App runs OCR and shows recognized line items  
+- [✅] User can open the camera and take a photo of a receipt  
+- [✅] User can crop the photo to the receipt region  
+- [✅] App runs OCR and shows recognized line items  
 
 **Optional (Nice‑to‑have)**  
 - [ ] App fetches carbon‑intensity data and shows total footprint per receipt  
